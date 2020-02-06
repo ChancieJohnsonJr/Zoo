@@ -1,0 +1,20 @@
+Research Questions
+
+1. RecyclerView uses lazy loading while ListView uses eager loading.  They also differ in the type of adapter they use.
+   ListView generally uses an array adapter while RecyclerView uses a RecyclerView adapter. Another difference
+   is that ListView contains an ItemClickListener by default while a RecyclerView does not automatically has an
+   ItemClickListener.
+
+2. Lazy loading is a form of rending data by using the RecyclerView. It will render only enough
+   items to fit on screen plus 2 items top or bottom of current place in list
+
+3. An Item Decorator in the RecyclerView is used to customize how each item is separated in the list
+
+4. The ViewHolder pattern is an internal call used in the RecycleView adapter. It holds the group of
+   views to be used with that item
+
+5. The item touch helper in RecyclerView is a utility class to add swipe and other gestures to the RecycleViewer.
+   Any RecycleView items are accessed and controlled by the item touch helper.  In code, the syntax is:
+
+   public class ItemTouchHelper
+   extends RecyclerView.ItemDecoration implements RecyclerView.OnChildAttachStateChangeListener
