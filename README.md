@@ -1,1 +1,1 @@
-This project creates a homepage for a zoo then once user clicks Choose Animal button, they can pick a species then pick a specific animal and the color, weight, and size of that animal along with the sound it makes occurs.
+This project creates a homepage for a zoo then once user clicks Choose Animal button, they can pick a species then pick a specific animal and the color, weight, and size of that animal will be displayed.
